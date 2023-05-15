@@ -1,6 +1,6 @@
 # alya
 
-This is a simple project in flutter.
+This is a simple project in flutter related with cloud messaging and notifications.
 
 ## Getting Started
 
