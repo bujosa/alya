@@ -8,6 +8,10 @@ void main() async {
 
   FirebaseMessaging messaging = FirebaseMessaging.instance;
 
+  // Get the FID token for this device so we can send notifications to it
+  String? token = await messaging.getToken();
+  print('FirebaseMessaging token: $token');
+
   await messaging.requestPermission(
     alert: true,
     announcement: false,
